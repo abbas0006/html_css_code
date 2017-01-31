@@ -2,7 +2,7 @@ require_relative "./html_css_code/version"
 # require_relative "./html_css_code/CLI"
 
 class HTMLTag
-  attr_accessor :name ,:syntax ,:description
+  attr_accessor :name ,:syntax 
   @@all=[]
  def initialize(name,syntax)
    @name=name
