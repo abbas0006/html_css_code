@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/html_css_code/cli.rb'
+LittleWebHut.new.call
